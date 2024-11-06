@@ -2,8 +2,8 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.2.0 (2024-11-06)
+------------------
 * Updated Gesture message definition
 * Contributors: lorenzoferrini
 
