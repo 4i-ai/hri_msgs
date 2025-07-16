@@ -2,8 +2,8 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.2.1 (2025-07-16)
+------------------
 * [LiveSpeech] remove deprecated 'language' field
 * Contributors: Séverin Lemaignan
 
