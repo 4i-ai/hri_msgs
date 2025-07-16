@@ -2,6 +2,11 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* [LiveSpeech] remove deprecated 'language' field
+* Contributors: Séverin Lemaignan
+
 2.2.0 (2024-11-06)
 ------------------
 * Updated Gesture message definition
