@@ -8,4 +8,5 @@ uint8 LAYING = 4
 
 uint8 OTHER = 0
 
+string skeleton_id
 uint8 posture # one of the above constants

@@ -90,8 +90,10 @@ uint8 MOUTH_INNER_BOTTOM_1=67
 uint8 MOUTH_INNER_BOTTOM_2=66
 uint8 MOUTH_INNER_BOTTOM_3=65
 
-# array of 70 landmark normalized coordinates, one per landmark, ordered per landmarks codes
-NormalizedPointOfInterest2D[70] landmarks
+string face_id
+
+# array of landmark normalized coordinates, one per landmark, ordered per landmarks codes
+NormalizedPointOfInterest2D[] landmarks
 
 uint32 height # image height in pixels, that is, number of rows
 uint32 width # image width in pixels, that is, number of columns

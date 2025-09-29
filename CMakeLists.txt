@@ -26,7 +26,9 @@ endif()
 
 find_package(ament_cmake_auto REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
-find_package(sensor_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(eut_yolo_interfaces REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/AudioFeatures.msg"
@@ -34,6 +36,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/EngagementLevel.msg"
   "msg/Expression.msg"
   "msg/FacialActionUnits.msg"
+  "msg/FacialRecognition.msg"
   "msg/FacialLandmarks.msg"
   "msg/Gaze.msg"
   "msg/Gesture.msg"
@@ -44,9 +47,13 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/NormalizedPointOfInterest2D.msg"
   "msg/NormalizedPointOfInterest2DStamped.msg"
   "msg/NormalizedRegionOfInterest2D.msg"
+  "msg/People.msg"
+  "msg/Person.msg"
   "msg/Skeleton2D.msg"
   "msg/SoftBiometrics.msg"
-  DEPENDENCIES std_msgs
+  "msg/SpeechActivityDetection.msg"
+  "msg/SpeechResult.msg"
+  DEPENDENCIES std_msgs geometry_msgs eut_yolo_interfaces
 )
 
 ament_export_dependencies(rosidl_default_runtime)

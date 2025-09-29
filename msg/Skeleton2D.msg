@@ -26,7 +26,12 @@ uint8 RIGHT_EYE = 15
 uint8 LEFT_EAR = 16
 uint8 RIGHT_EAR = 17
 
-# array of 18 skeletal key points coordinates, one per skeletal key point, ordered per skeletal key points codes
-NormalizedPointOfInterest2D[18] skeleton
+string skeleton_id
+
+# array of skeletal key points coordinates, one per skeletal key point, ordered per skeletal key points codes
+NormalizedPointOfInterest2D[] skeleton
+
+uint32 height # image height in pixels, that is, number of rows
+uint32 width # image width in pixels, that is, number of columns
 
 
