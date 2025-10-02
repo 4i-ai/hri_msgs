@@ -97,3 +97,7 @@ NormalizedPointOfInterest2D[] landmarks
 
 uint32 height # image height in pixels, that is, number of rows
 uint32 width # image width in pixels, that is, number of columns
+
+float32 bbox_confidence
+uint32[] bbox_xyxy
+float32[] bbox_centroid
