@@ -38,6 +38,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/FacialActionUnits.msg"
   "msg/FacialRecognition.msg"
   "msg/FacialLandmarks.msg"
+  "msg/FacialLandmarksArray.msg"
   "msg/Gaze.msg"
   "msg/Gesture.msg"
   "msg/Group.msg"
