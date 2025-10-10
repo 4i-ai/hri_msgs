@@ -54,6 +54,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SpeechActivityDetection.msg"
   "msg/SpeechResult.msg"
   "msg/Perception.msg"
+  "msg/PerceptionObjects.msg"
   DEPENDENCIES std_msgs geometry_msgs 
 )
 
