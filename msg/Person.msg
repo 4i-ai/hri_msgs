@@ -2,7 +2,7 @@ string person_id
 SoftBiometrics soft_biometrics
 
 # Bounding boxes
-Perception visual_detection
+Entity visual_detection
 
 # Speech info
 SpeechActivityDetection speech_activity
