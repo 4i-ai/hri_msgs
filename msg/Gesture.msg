@@ -28,7 +28,7 @@ uint8 LEFT = 2
 uint8 INDEPENDENT = 0
 
 string gesture_id
-uint32[] bbox_xyxy
+NormalizedRegionOfInterest2D bbox_xyxy
 
 uint8 gesture # one of the above gesture constants
 uint8 handedness # one of the above handedness constants 

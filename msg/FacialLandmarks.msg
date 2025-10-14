@@ -99,5 +99,5 @@ uint32 height # image height in pixels, that is, number of rows
 uint32 width # image width in pixels, that is, number of columns
 
 float32 bbox_confidence
-uint32[] bbox_xyxy
-float32[] bbox_centroid
+NormalizedRegionOfInterest2D bbox_xyxy
+float32[] bbox_centroid # in pixel coordinates, msg: [x,y] # in pixel coordinates, msg: [x,y]
