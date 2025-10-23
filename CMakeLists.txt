@@ -61,6 +61,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/AudioAndDeviceInfo.msg"
   "msg/Diarization.msg"
   "msg/Vad.msg"
+  "msg/WakeWord.msg"
   DEPENDENCIES std_msgs geometry_msgs 
 )
 
