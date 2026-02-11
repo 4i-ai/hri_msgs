@@ -62,14 +62,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Diarization.msg"
   "msg/Vad.msg"
   "msg/WakeWord.msg"
-  DEPENDENCIES std_msgs geometry_msgs 
+  DEPENDENCIES std_msgs geometry_msgs
 )
 
 ament_export_dependencies(rosidl_default_runtime)
 
-if(BUILD_TESTING)
-  ament_auto_find_test_dependencies()
-  ament_lint_auto_find_test_dependencies()
-endif()
+# Testing disabled for dependency package
 
 ament_auto_package()
