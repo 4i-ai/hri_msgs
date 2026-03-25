@@ -16,4 +16,5 @@ Gesture[] gestures
 
 # Face info
 FacialLandmarks face_landmarks
+FacialRecognition face_recognition
 Gaze gaze
